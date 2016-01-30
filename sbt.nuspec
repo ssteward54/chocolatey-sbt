@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>sbt</id>
+        <version>0.13.9.2</version>
+        <authors>Steven Blundy,Josh Cough,Mark Harrah,Stuart Roebuck,Tony Sloane,Vesa Vilhonen,Jason Zaugg</authors>
+        <owners>ssteward54</owners>
+        <licenseUrl>https://raw.github.com/sbt/sbt/0.13/LICENSE</licenseUrl>
+        <projectUrl>http://www.scala-sbt.org/</projectUrl>
+		<packageSourceUrl>https://github.com/ssteward54/chocolatey-sbt</packageSourceUrl>
+        <iconUrl>http://www.scala-sbt.org/assets/typesafe_sbt_svg.svg</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>sbt is a build tool for Scala, Java, and more. It requires Java 1.6 or later.</summary>
+        <description>sbt, a simple build tool for Scala</description>
+        <copyright>Copyright 2008-2010</copyright>
+        <tags>scala java lang admin</tags>
+		<releaseNotes># Release Notes
+
+- Updated to version 0.13.9.2
+- Fixed upgrade from previous versions
+
+### Version
+0.13.9.2
+</releaseNotes>
+    </metadata>
+</package>
