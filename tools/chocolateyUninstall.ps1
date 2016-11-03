@@ -1,8 +1,7 @@
-﻿
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
-$packageName = 'pkg'
-$softwareName = 'pkg*'
+$packageName = 'sbt'
+$softwareName = 'sbt*'
 $installerType = 'MSI' 
 
 $silentArgs = '/qn /norestart'
@@ -12,13 +11,7 @@ if ($installerType -ne 'MSI') {
 }
 
 $uninstalled = $false
-$local_key     = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*'
-$machine_key   = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*'
-$machine_key6432 = 'HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*'
-
-$key = Get-ItemProperty -Path @($machine_key6432,$machine_key, $local_key) `
-                        -ErrorAction SilentlyContinue `
-         | ? { $_.DisplayName -like "$softwareName" }
+[array]$key = Get-UninstallRegistryKey -SoftwareName $softwareName
 
 if ($key.Count -eq 1) {
   $key | % { 
@@ -44,6 +37,3 @@ if ($key.Count -eq 1) {
   Write-Warning "Please alert package maintainer the following keys were matched:"
   $key | % {Write-Warning "- $_.DisplayName"}
 }
-
-
-

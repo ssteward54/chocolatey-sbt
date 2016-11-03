@@ -3,8 +3,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>sbt</id>
-        <version>0.13.9.2</version>
-        <authors>Steven Blundy,Josh Cough,Mark Harrah,Stuart Roebuck,Tony Sloane,Vesa Vilhonen,Jason Zaugg</authors>
+        <version>0.13.13.1</version>
+        <authors>Steven Blundy,Josh Cough,Mark Harrah,Stuart Roebuck,Tony Sloane,Vesa Vilhonen,Jason Zaugg,Jordi Garcia</authors>
         <owners>ssteward54</owners>
         <licenseUrl>https://raw.github.com/sbt/sbt/0.13/LICENSE</licenseUrl>
         <projectUrl>http://www.scala-sbt.org/</projectUrl>
@@ -17,11 +17,13 @@
         <tags>scala java lang admin</tags>
 		<releaseNotes># Release Notes
 
-- Updated to version 0.13.9.2
-- Fixed upgrade from previous versions
+- Updated to version 0.13.13.1
 
 ### Version
-0.13.9.2
-</releaseNotes>
+0.13.13.1
+        </releaseNotes>
     </metadata>
+	<files>
+	   <file src="tools\**" target="tools" />
+	</files>
 </package>
