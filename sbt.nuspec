@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>sbt</id>
-        <version>0.13.13.1</version>
+        <version>0.13.11</version>
         <authors>Steven Blundy,Josh Cough,Mark Harrah,Stuart Roebuck,Tony Sloane,Vesa Vilhonen,Jason Zaugg,Jordi Garcia</authors>
         <owners>ssteward54</owners>
         <licenseUrl>https://raw.github.com/sbt/sbt/0.13/LICENSE</licenseUrl>
@@ -17,10 +17,10 @@
         <tags>scala java lang admin</tags>
 		<releaseNotes># Release Notes
 
-- Updated to version 0.13.13.1
+- Updated to version 0.13.11
 
 ### Version
-0.13.13.1
+0.13.11
         </releaseNotes>
     </metadata>
 	<files>
