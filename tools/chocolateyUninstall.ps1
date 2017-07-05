@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop';
-M15X Was Here
+
 $packageName = 'sbt'
 $softwareName = 'sbt*'
 $installerType = 'MSI' 
