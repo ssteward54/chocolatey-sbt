@@ -3,7 +3,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>sbt</id>
-        <version>1.0.0</version>
+        <version>1.0.2</version>
+        <title>sbt</title>
         <authors>Steven Blundy,Josh Cough,Mark Harrah,Stuart Roebuck,Tony Sloane,Vesa Vilhonen,Jason Zaugg,Jordi Garcia</authors>
         <owners>ssteward54</owners>
         <licenseUrl>https://github.com/sbt/sbt/blob/1.x/LICENSE</licenseUrl>
@@ -15,12 +16,17 @@
         <description>sbt, a simple build tool for Scala</description>
         <copyright>Copyright 2008-2010</copyright>
         <tags>scala java lang admin</tags>
-		<releaseNotes># Release Notes
+		<bugTrackerUrl>https://github.com/sbt/sbt/issues</bugTrackerUrl>
+        <mailingListUrl>https://groups.google.com/d/forum/sbt-dev</mailingListUrl>
+        <projectSourceUrl>https://github.com/sbt/sbt</projectSourceUrl>
+        <docsUrl>http://www.scala-sbt.org/1.x/docs/index.html</docsUrl>
+        <releaseNotes># Release Notes
 
-- Updated to version 1.0.0
+- Updated to version 1.0.2
+- Add sbt to machien path by default
 
 ### Version
-1.0.0
+1.0.2
         </releaseNotes>
     </metadata>
 	<files>

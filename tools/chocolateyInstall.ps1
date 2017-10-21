@@ -2,7 +2,7 @@
 
 $packageName = 'sbt'
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url         = 'https://github.com/sbt/sbt/releases/download/v1.0.0/sbt-1.0.0.msi'
+$url         = 'https://github.com/sbt/sbt/releases/download/v1.0.2/sbt-1.0.2.msi'
 $url64       = ''
 
 $packageArgs = @{
@@ -14,7 +14,7 @@ $packageArgs = @{
 
   softwareName   = 'sbt*'
 
-  checksum       = 'BC8FA88882D0A2C3660A920279E7E8C1D1D75B557825B292AC474D56EA19C4F6'
+  checksum       = '4680DA607118192C370E848C8C933377F3B72EE530FF7B75A10101CC4123DCFB'
   checksumType   = 'sha256'
   checksum64     = ''
   checksumType64 = 'sha256'
@@ -24,3 +24,5 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
+
+Install-ChocolateyPath -PathToInstall "$($env:SystemDrive)\Program Files (x86)\sbt\bin" -PathType 'Machine'
