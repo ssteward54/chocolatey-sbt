@@ -3,8 +3,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>sbt</id>
-        <version>1.1.4</version>
-        <title>sbt</title>
+        <version>1.1.4.16042018</version>
+        <title>Simple Build Tool (SBT)</title>
         <authors>Steven Blundy,Josh Cough,Mark Harrah,Stuart Roebuck,Tony Sloane,Vesa Vilhonen,Jason Zaugg,Jordi Garcia</authors>
         <owners>ssteward54</owners>
         <licenseUrl>https://github.com/sbt/sbt/blob/1.x/LICENSE</licenseUrl>
