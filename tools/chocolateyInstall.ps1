@@ -2,7 +2,7 @@
 
 $packageName = 'sbt'
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url         = 'https://github.com/sbt/sbt/releases/download/v1.0.2/sbt-1.0.2.msi'
+$url         = 'https://github.com/sbt/sbt/releases/download/v1.1.4/sbt-1.1.4.msi'
 $url64       = ''
 
 $packageArgs = @{
@@ -14,7 +14,7 @@ $packageArgs = @{
 
   softwareName   = 'sbt*'
 
-  checksum       = '4680DA607118192C370E848C8C933377F3B72EE530FF7B75A10101CC4123DCFB'
+  checksum       = '83598896F849E6C863ADA9604316075E09D96F681BAAA09F2B13D25B9A2E2238'
   checksumType   = 'sha256'
   checksum64     = ''
   checksumType64 = 'sha256'
