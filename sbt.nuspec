@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>sbt</id>
-        <version>1.1.4</version>
+        <version>1.2.1.17082018</version>
         <title>sbt</title>
         <authors>Steven Blundy,Josh Cough,Mark Harrah,Stuart Roebuck,Tony Sloane,Vesa Vilhonen,Jason Zaugg,Jordi Garcia</authors>
         <owners>ssteward54</owners>
@@ -22,10 +22,10 @@
         <docsUrl>http://www.scala-sbt.org/1.x/docs/index.html</docsUrl>
         <releaseNotes># Release Notes
 
-- Updated to version 1.1.4
+- Updated to version 1.2.1 with uninstall before install
 
 ### Version
-1.1.4
+1.2.1
         </releaseNotes>
     </metadata>
 	<files>
