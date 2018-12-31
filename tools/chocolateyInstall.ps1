@@ -11,7 +11,7 @@ if ($installerType -ne 'MSI') {
 }
 
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url         = 'https://github.com/sbt/sbt/releases/download/v1.2.8/sbt-1.2.8.msi'
+$url         = 'https://piccolo.link/sbt-1.2.8.msi'
 $url64       = ''
 
 $packageArgs = @{
