@@ -3,9 +3,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>sbt</id>
-        <version>1.2.7</version>
+        <version>1.2.8</version>
         <title>sbt</title>
-        <authors>Steven Blundy,Josh Cough,Mark Harrah,Stuart Roebuck,Tony Sloane,Vesa Vilhonen,Jason Zaugg,Jordi Garcia,Anthony Accioly</authors>
+        <authors>Steven Blundy,Josh Cough,Mark Harrah,Stuart Roebuck,Tony Sloane,Vesa Vilhonen,Jason Zaugg,Jordi Garcia,Anthony Accioly,Daniel Miller</authors>
         <owners>ssteward54</owners>
         <licenseUrl>https://github.com/sbt/sbt/blob/1.x/LICENSE</licenseUrl>
         <projectUrl>http://www.scala-sbt.org/</projectUrl>
@@ -22,10 +22,10 @@
         <docsUrl>http://www.scala-sbt.org/1.x/docs/index.html</docsUrl>
         <releaseNotes># Release Notes
 
-- Updated to version 1.2.7
+- Updated to version 1.2.8
 
 ### Version
-1.2.7
+1.2.8
         </releaseNotes>
     </metadata>
 	<files>
