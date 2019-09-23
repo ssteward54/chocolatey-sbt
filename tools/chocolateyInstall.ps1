@@ -11,7 +11,7 @@ if ($installerType -ne 'MSI') {
 }
 
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url         = 'https://piccolo.link/sbt-1.2.8.msi'
+$url         = 'https://github.com/sbt/sbt/releases/download/v1.3.2/sbt-1.3.2.msi'
 $url64       = ''
 
 $packageArgs = @{
@@ -23,7 +23,7 @@ $packageArgs = @{
 
   softwareName   = 'sbt*'
 
-  checksum       = '01F5043E81623C7FDB398B76F0CDBFE28691D428D3D38EA37B556BD0F95E1E98'
+  checksum       = 'C6CB69B0524585122D58BE33D88ACB590BC63C2B32BA2714AC4F3635CCFB1CDC'
   checksumType   = 'sha256'
   checksum64     = ''
   checksumType64 = 'sha256'
